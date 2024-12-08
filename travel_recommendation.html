@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About Us</a>
+    <a href="contact.html" class="nav-link">Contact Us</a>
+  </nav>
+
+  <!-- Search Bar -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search destinations, temples, or beaches..." oninput="searchRecommendations()">
+  </div>
+
+  <!-- Content Section -->
+  <section class="content-section">
+    <div class="background-image"></div>
+    <div class="content-overlay">
+      <h1>Explore the World with TravelBloom</h1>
+      <p>Discover cultures, create memories, and embark on unforgettable journeys.</p>
+      <button class="book-now">Book Now</button>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
